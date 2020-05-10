@@ -5,5 +5,10 @@ class Person
   def name
     "#{@name}"
   end
-  def job=(job)
+  def job=(title)
+    @job = title
+  end
+  def job
+    "#{job}"
+  end
 end
