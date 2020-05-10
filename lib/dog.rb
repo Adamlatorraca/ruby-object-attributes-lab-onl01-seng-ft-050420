@@ -11,7 +11,7 @@ class Dog
   end
 
   def name
-    "#{name}"
+    "#{@name}"
   end
 #breed
   def breed=(dogs_breed)
